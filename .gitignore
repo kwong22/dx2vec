@@ -71,6 +71,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+# for now, just using notebooks for quick testing
+*.ipynb
 
 # pyenv
 .python-version
@@ -102,3 +104,14 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Vim temporary fils
+*.swp
+
+# Data
+data/*
+
+# TensorFlow files
+checkpoints/*
+graphs/*
+visualization/*
